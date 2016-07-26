@@ -1,0 +1,75 @@
+7/26/2016 4:14:20 PM	This log contains information about the import schema operation into project 'CITestDatabase' on computer 'RDOVHANYK-LP' by user 'rdovhanyk'.
+7/26/2016 4:14:20 PM	Import of database schema has started.
+7/26/2016 4:14:41 PM	Gathering database options
+7/26/2016 4:14:41 PM	Gathering users
+7/26/2016 4:14:41 PM	Gathering roles
+7/26/2016 4:14:41 PM	Gathering application roles
+7/26/2016 4:14:41 PM	Gathering role memberships
+7/26/2016 4:14:41 PM	Gathering filegroups
+7/26/2016 4:14:41 PM	Gathering full-text catalogs
+7/26/2016 4:14:41 PM	Gathering assemblies
+7/26/2016 4:14:41 PM	Gathering certificates
+7/26/2016 4:14:41 PM	Gathering asymmetric keys
+7/26/2016 4:14:41 PM	Gathering symmetric keys
+7/26/2016 4:14:41 PM	Gathering encrypted symmetric keys
+7/26/2016 4:14:41 PM	Gathering schemas
+7/26/2016 4:14:50 PM	Gathering XML schema collections
+7/26/2016 4:14:50 PM	Gathering user-defined data types
+7/26/2016 4:14:50 PM	Gathering user-defined types
+7/26/2016 4:14:50 PM	Gathering table types
+7/26/2016 4:14:50 PM	Gathering unique keys for table types
+7/26/2016 4:14:50 PM	Gathering primary keys for table types
+7/26/2016 4:14:50 PM	Gathering check constraints for table types
+7/26/2016 4:14:50 PM	Gathering default constraints for table types
+7/26/2016 4:14:50 PM	Gathering partition functions
+7/26/2016 4:14:50 PM	Gathering partition schemes
+7/26/2016 4:14:50 PM	Gathering functions
+7/26/2016 4:14:51 PM	Gathering encrypted functions
+7/26/2016 4:14:51 PM	Gathering aggregates
+7/26/2016 4:14:51 PM	Gathering procedures
+7/26/2016 4:14:51 PM	Gathering encrypted procedures
+7/26/2016 4:14:51 PM	Gathering tables
+7/26/2016 4:14:52 PM	Gathering primary keys
+7/26/2016 4:14:52 PM	Gathering unique constraints
+7/26/2016 4:14:52 PM	Gathering foreign keys
+7/26/2016 4:14:52 PM	Gathering default constraints
+7/26/2016 4:14:52 PM	Gathering check constraints
+7/26/2016 4:14:52 PM	Gathering views
+7/26/2016 4:14:52 PM	Gathering encrypted views
+7/26/2016 4:14:52 PM	Gathering indexes
+7/26/2016 4:14:52 PM	Gathering statistics
+7/26/2016 4:14:52 PM	Gathering full-text index stoplists
+7/26/2016 4:14:52 PM	Gathering search property lists
+7/26/2016 4:14:52 PM	Gathering search properties
+7/26/2016 4:14:52 PM	Gathering full-text indexes
+7/26/2016 4:14:52 PM	Gathering column store indexes
+7/26/2016 4:14:52 PM	Gathering spatial indexes
+7/26/2016 4:14:52 PM	Gathering XML indexes
+7/26/2016 4:14:52 PM	Gathering encrypted triggers
+7/26/2016 4:14:52 PM	Gathering triggers
+7/26/2016 4:14:52 PM	Gathering encrypted and clr ddl triggers
+7/26/2016 4:14:52 PM	Gathering ddl triggers
+7/26/2016 4:14:52 PM	Gathering synonyms
+7/26/2016 4:14:52 PM	Gathering defaults
+7/26/2016 4:14:52 PM	Gathering data constraint uddt bindings
+7/26/2016 4:14:52 PM	Gathering rules
+7/26/2016 4:14:52 PM	Gathering data constraint uddt bindings
+7/26/2016 4:14:52 PM	Gathering message types
+7/26/2016 4:14:52 PM	Gathering queues
+7/26/2016 4:14:52 PM	Gathering contracts
+7/26/2016 4:14:52 PM	Gathering services
+7/26/2016 4:14:52 PM	Gathering event notifications
+7/26/2016 4:14:52 PM	Gathering remote service bindings
+7/26/2016 4:14:52 PM	Gathering broker priorities
+7/26/2016 4:14:52 PM	Gathering signatures
+7/26/2016 4:14:52 PM	Gathering data compression options
+7/26/2016 4:14:52 PM	Gathering sequence types
+7/26/2016 4:14:52 PM	Gathering extended properties
+7/26/2016 4:14:54 PM	Gathering credentials
+7/26/2016 4:14:54 PM	Gathering logins
+7/26/2016 4:14:54 PM	Gathering server audits
+7/26/2016 4:14:55 PM	Scanning project for duplicate elements
+7/26/2016 4:14:55 PM	Finished duplicate element processing
+7/26/2016 4:14:56 PM	Finished importing database.
+7/26/2016 4:14:56 PM	A summary of the import was saved to the following location: D:\Projects\AMAZON_TEST\Projects\CITestDatabase\CITestDatabase\Import Schema Logs\CITestDatabase_20160726011420.log
+7/26/2016 4:14:56 PM	Click Finish to continue...

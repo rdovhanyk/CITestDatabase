@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>CITestDatabase</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{591e2baf-afa2-43e9-b3ae-5be88ff45153}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>CITestDatabase</RootNamespace>
+    <AssemblyName>CITestDatabase</AssemblyName>
+    <ModelCollation>1058,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>Ukrainian_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="stage\" />
+    <Folder Include="stage\Tables\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="utils\" />
+    <Folder Include="utils\Functions\" />
+    <Folder Include="etl\" />
+    <Folder Include="etl\Stored Procedures\" />
+    <Folder Include="rep\" />
+    <Folder Include="rep\Stored Procedures\" />
+    <Folder Include="stage\Stored Procedures\" />
+    <Folder Include="utils\Stored Procedures\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\DimAdAccount.sql" />
+    <Build Include="dbo\Tables\DimAffiliate.sql" />
+    <Build Include="dbo\Tables\DimBusinessAccount.sql" />
+    <Build Include="dbo\Tables\DimCampaign.sql" />
+    <Build Include="dbo\Tables\DimDate.sql" />
+    <Build Include="dbo\Tables\DimProduct.sql" />
+    <Build Include="dbo\Tables\DimSource.sql" />
+    <Build Include="dbo\Tables\DimTimeZone.sql" />
+    <Build Include="dbo\Tables\FactCampaign.sql" />
+    <Build Include="dbo\Tables\Settings.sql" />
+    <Build Include="dbo\Tables\UserAffiliates.sql" />
+    <Build Include="dbo\Tables\Users.sql" />
+    <Build Include="stage\Tables\CakeCampaignInsightsUTC.sql" />
+    <Build Include="stage\Tables\CakeClicks.sql" />
+    <Build Include="stage\Tables\CakeConversions.sql" />
+    <Build Include="stage\Tables\FBAdaccounts.sql" />
+    <Build Include="stage\Tables\FBAds.sql" />
+    <Build Include="stage\Tables\FBBusinessAccounts.sql" />
+    <Build Include="stage\Tables\FBCampaignInsightsUTC.sql" />
+    <Build Include="stage\Tables\FBCampaigns.sql" />
+    <Build Include="stage\Tables\FBInsights.sql" />
+    <Build Include="stage\Tables\FBObjectStorySpec.sql" />
+    <Build Include="stage\Tables\StageErrorLog.sql" />
+    <Build Include="dbo\Functions\GetLinkParameterValue.sql" />
+    <Build Include="dbo\Functions\GetUSDaylightSaving.sql" />
+    <Build Include="dbo\Functions\GetFirstDateOfYear.sql" />
+    <Build Include="dbo\Functions\GetLastDateFromDimDate.sql" />
+    <Build Include="utils\Functions\CSVToTable.sql" />
+    <Build Include="dbo\Functions\GetDateMonthRange.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimAffiliate.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimBusinessAccount.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimTimeZone.sql" />
+    <Build Include="rep\Stored Procedures\AlphaTeamHourlyDetailsReport.sql" />
+    <Build Include="rep\Stored Procedures\param_AdAccount.sql" />
+    <Build Include="rep\Stored Procedures\param_Affiliate.sql" />
+    <Build Include="rep\Stored Procedures\param_BusinessAccount.sql" />
+    <Build Include="rep\Stored Procedures\param_Campaign.sql" />
+    <Build Include="rep\Stored Procedures\param_TimeZone.sql" />
+    <Build Include="stage\Stored Procedures\CleanAdAccountData.sql" />
+    <Build Include="stage\Stored Procedures\Load_CakeCampaignInsightsUTC.sql" />
+    <Build Include="stage\Stored Procedures\Load_FBCampaignInsightsUTC.sql" />
+    <Build Include="utils\Stored Procedures\GetAdDetails.sql" />
+    <Build Include="utils\Stored Procedures\GetDaysRange.sql" />
+    <Build Include="utils\Stored Procedures\GetDoubleCampaignsId.sql" />
+    <Build Include="utils\Stored Procedures\GetDoubleFbIds.sql" />
+    <Build Include="stage\Stored Procedures\CleanStage.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimDate.sql" />
+    <Build Include="etl\Stored Procedures\GetLastLoadDate.sql" />
+    <Build Include="etl\Stored Procedures\SetLastLoadDate.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimProduct.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimAd.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimCampaign.sql" />
+    <Build Include="etl\Stored Procedures\Load_FactCampaign.sql" />
+    <Build Include="rep\Stored Procedures\AlphaTeamReport.sql" />
+    <Build Include="etl\Stored Procedures\Load_DimAdAccount.sql" />
+    <Build Include="Security\etl.sql" />
+    <Build Include="Security\rep.sql" />
+    <Build Include="Security\stage.sql" />
+    <Build Include="Security\utils.sql" />
+    <Build Include="ExtendedProperties.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CITestDatabase.publish.xml" />
+  </ItemGroup>
+</Project>
