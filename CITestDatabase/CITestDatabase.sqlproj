@@ -135,6 +135,7 @@
     <Build Include="Security\stage.sql" />
     <Build Include="Security\utils.sql" />
     <Build Include="ExtendedProperties.sql" />
+    <Build Include="Security\test.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CITestDatabase.publish.xml" />
