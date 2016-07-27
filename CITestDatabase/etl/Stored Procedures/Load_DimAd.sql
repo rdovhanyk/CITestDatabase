@@ -2,7 +2,9 @@
 AS
 BEGIN
 
-	/* Get max key value */
+	/* 
+		Get max key value 
+	*/
 	DECLARE @maxKeyValue int;
 	SET @maxKeyValue = CASE WHEN ISNULL((SELECT MAX(a.AdKey) FROM dbo.DimAd a (NOLOCK)), 0) < 0 THEN 0 ELSE ISNULL((SELECT MAX(a.AdKey) FROM dbo.DimAd a (NOLOCK)), 0) END;
 

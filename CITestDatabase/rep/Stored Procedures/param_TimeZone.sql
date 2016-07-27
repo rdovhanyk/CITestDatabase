@@ -2,7 +2,7 @@
 AS
 BEGIN
 	SET NOCOUNT ON;
-
+	
 	SELECT r.TimeZoneKey, r.TimeZoneName
 	FROM (
 		SELECT TimeZoneKey = 0, TimeZoneName = 'AdAccount Time Zone' , Ord = 0
