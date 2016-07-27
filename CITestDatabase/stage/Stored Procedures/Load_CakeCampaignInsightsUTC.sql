@@ -3,7 +3,7 @@
 AS
 BEGIN
 	SET DATEFIRST 7
-	/* Test comment 2 */
+	/* Test comment 3 */
 	DECLARE @USDLS smallint, @cake_timezone_offset_hours_utc int
 	
 	SELECT @cake_timezone_offset_hours_utc = SettingValue FROM [dbo].[Settings] WHERE SettingName = 'CAKETimeZoneOffsetHoursUTC'
