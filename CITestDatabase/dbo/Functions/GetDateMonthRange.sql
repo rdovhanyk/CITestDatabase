@@ -3,7 +3,7 @@
 	@StartDate datetime,
 	@EndDate datetime
 )
-/* Test Comment 1 */
+/* Test Comment 2 */
 RETURNS TABLE 
 AS
 RETURN 
