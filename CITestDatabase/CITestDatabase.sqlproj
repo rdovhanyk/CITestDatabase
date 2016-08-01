@@ -26,6 +26,7 @@
     <DefaultCollation>Ukrainian_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
     <PermissionSet>EXTERNAL_ACCESS</PermissionSet>
+    <GenerateCreateScript>True</GenerateCreateScript>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -74,6 +75,9 @@
     <Folder Include="stage\Stored Procedures\" />
     <Folder Include="utils\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\0.1" />
+    <Folder Include="Scripts\0.2" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DimAdAccount.sql" />
@@ -140,6 +144,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CITestDatabase.publish.xml" />
+    <None Include="Scripts\0.1\update1.sql" />
+    <None Include="Scripts\0.1\update2.sql" />
+    <None Include="Scripts\0.2\update3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\0.1\Script.PostDeployment_0.1.sql" />
+    <PostDeploy Include="Scripts\0.2\Script.PostDeployment_0.2.sql" />
   </ItemGroup>
   <!-- 
 	Custom targets and properties added so that we can specify the database to publish to using command line parameters with VS 2012 .sqlproj projects, like we did with VS 2010 .dbproj projects.

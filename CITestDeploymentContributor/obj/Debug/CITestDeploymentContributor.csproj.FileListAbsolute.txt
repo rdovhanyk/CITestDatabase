@@ -1,0 +1,13 @@
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\CITestDeploymentContributor.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\CITestDeploymentContributor.pdb
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.SqlServer.Dac.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.SqlServer.Dac.Extensions.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.SqlServer.Dac.xml
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\bin\Debug\Microsoft.SqlServer.Dac.Extensions.xml
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\obj\Debug\CITestDeploymentContributor.csprojResolveAssemblyReference.cache
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\obj\Debug\CITestDeploymentContributor.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDeploymentContributor\obj\Debug\CITestDeploymentContributor.pdb

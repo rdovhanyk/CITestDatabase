@@ -1,0 +1,1 @@
+﻿INSERT INTO [dbo].[Settings] ([SettingKey], [SettingName], [SettingValue]) VALUES (1, 'Test setting', 11)
