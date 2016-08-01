@@ -1,9 +1,0 @@
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\bin\Debug\CITestDatabase.dacpac
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\bin\Debug\CITestDatabase.dll
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\bin\Debug\CITestDatabase.pdb
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Debug\CITestDatabase.dll
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Debug\CITestDatabase.pdb
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Debug\Model.xml
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Debug\refactor.xml
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Debug\postdeploy.sql
-D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Debug\predeploy.sql
