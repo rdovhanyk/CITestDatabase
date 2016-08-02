@@ -1225,7 +1225,7 @@
 							<Property Name="Length" Value="323" />
 							<Property Name="StartLine" Value="1" />
 							<Property Name="StartColumn" Value="1" />
-							<Property Name="HeaderContents" Value="CREATE FUNCTION [dbo].[GetDateMonthRange]&#xD;&#xA;(&#x9;&#xD;&#xA;&#x9;@StartDate datetime,&#xD;&#xA;&#x9;@EndDate datetime&#xD;&#xA;)&#xD;&#xA;/* Test Comment 5 */&#xD;&#xA;RETURNS TABLE &#xD;&#xA;AS&#xD;&#xA;RETURN" />
+							<Property Name="HeaderContents" Value="CREATE FUNCTION [dbo].[GetDateMonthRange]&#xD;&#xA;(&#x9;&#xD;&#xA;&#x9;@StartDate datetime,&#xD;&#xA;&#x9;@EndDate datetime&#xD;&#xA;)&#xD;&#xA;/* Test Comment 8 */&#xD;&#xA;RETURNS TABLE &#xD;&#xA;AS&#xD;&#xA;RETURN" />
 						</Annotation>
 					</Element>
 				</Entry>

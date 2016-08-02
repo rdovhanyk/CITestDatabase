@@ -711,7 +711,7 @@ CREATE FUNCTION [dbo].[GetDateMonthRange]
 	@StartDate datetime,
 	@EndDate datetime
 )
-/* Test Comment 5 */
+/* Test Comment 8 */
 RETURNS TABLE 
 AS
 RETURN 
