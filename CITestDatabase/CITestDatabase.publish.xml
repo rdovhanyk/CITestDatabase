@@ -4,7 +4,7 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>CITestDatabase</TargetDatabaseName>
     <DeployScriptFileName>CITestDatabase.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=WINSRV2012\MSSQL2016DE;Persist Security Info=True;User ID=citest;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <TargetConnectionString>Data Source=WINSRV2012\MSSQL2016DE;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
 </Project>
