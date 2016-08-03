@@ -1,0 +1,9 @@
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\bin\Release\CITestDatabase.dacpac
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\bin\Release\CITestDatabase.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\bin\Release\CITestDatabase.pdb
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Release\Model.xml
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Release\refactor.xml
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Release\postdeploy.sql
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Release\predeploy.sql
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Release\CITestDatabase.dll
+D:\Projects\AMAZON_TEST\GIT\CITestDatabase\CITestDatabase\obj\Release\CITestDatabase.pdb
